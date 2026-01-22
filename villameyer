@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villermeyer Guesthouse | Pretoria East</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .hero {
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      background: #fff;
+      margin: 20px 0;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    .section h2 {
+      color: #2c3e50;
+    }
+    .rooms {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .room {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fafafa;
+    }
+    .room h3 {
+      margin-top: 0;
+      color: #34495e;
+    }
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #27ae60;
+    }
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+    button {
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #219150;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Villermeyer Guesthouse</h1>
+  <p>Comfort & Convenience in Pretoria East</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#rooms">Rooms & Rates</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <img src="https://www.za-pretoria.com/data/Photos/OriginalPhoto/17363/1736377/1736377016/photo-villameyer-lodge-pretoria-75.JPEG" alt="Villermeyer Guesthouse exterior">
+  <h2>Welcome to Villermeyer Guesthouse</h2>
+  <p>Your peaceful stay in the heart of Pretoria East</p>
+</section>
+
+<div class="container">
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      Villermeyer Guesthouse is a warm and welcoming bed & breakfast situated in
+      Pretoria East. We offer clean, comfortable, and affordable accommodation
+      ideal for business travelers, couples, and short-term visitors looking for
+      a relaxing stay.
+    </p>
+  </section>
+
+  <section id="rooms" class="section">
+    <h2>Rooms & Rates</h2>
+    <div class="rooms">
+
+      <div class="room">
+        <h3>Single Bedroom</h3>
+        <p>Perfect for solo travelers. Comfortable and private.</p>
+        <p class="price">R680 per night</p>
+      </div>
+
+      <div class="room">
+        <h3>One-Bedroom Unit</h3>
+        <p>Ideal for couples or extended stays with extra space.</p>
+        <p class="price">R1,300 per night</p>
+      </div>
+
+      <div class="room">
+        <h3>Double Queen Bed Bedroom</h3>
+        <p>Spacious room with a queen-size bed for maximum comfort.</p>
+        <p class="price">R1,000 per night</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="rooms">
+      <div class="room">
+        <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA15165e3444e33fe532174f9bb6a444f4495339b90fb6d92877e12ea80c0ad9b5370d3d5d24224a742dcb1b75fb50e1ea10bd?ar=1%3A1&auto=enhance%2Cformat%2Ccompress&fit=crop&q=80&w=800" alt="Swimming pool area" style="width:100%; border-radius:8px;">
+        <p>Relaxing swimming pool & outdoor chill area</p>
+      </div>
+      <div class="room">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="Guest room" style="width:100%; border-radius:8px;">
+        <p>Comfortable and well-furnished guest rooms</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact & Bookings</h2>
+    <div class="contact-info">
+      <p><strong>Location:</strong> Pretoria East, South Africa</p>
+      <p><strong>Phone:</strong> +27 60 799 2334</p>
+      <p><strong>Email:</strong> info@villermeyerguesthouse.co.za</p>
+    </div>
+    <br />
+    <button>Request a Booking</button>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Villermeyer Guesthouse. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
